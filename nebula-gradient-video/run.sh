@@ -14,7 +14,7 @@ if [ ! -d /storage/NEBULA2 ]
 then
    #rm -rf /storage/NEBULA2/notebooks/nebula_api/mdmmt_api/models/CLIP
    #rm -rf /storage/NEBULA2/nebula_api/mdmmt_api/models/tensorflow_models
-   cd /storage && git clone https://github.com/dsivov/NEBULA2
+   cd /storage && git clone https://github.com/NEBULA3PR0JECT/nebula3_videoprocessing
    cd /storage/NEBULA2/nebula_api/mdmmt_api && git clone https://github.com/openai/CLIP models/CLIP &&\
    git clone https://github.com/tensorflow/models/ models/tensorflow_models &&\
    ln -s /storage/models ckpts &&\
